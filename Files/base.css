@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Londrina+Solid&family=Pinyon+Script&display=swap');
+
+nav img{
+    height: 120px;
+    padding: 5%;
+    align-self: center;
+}
+.sticky-bar{
+    position: sticky;
+    top:0;
+
+    display: grid;
+    background-color: #fec9d2;
+    grid-template-columns: 300px 3fr;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;   
+}
+nav a:hover {
+    font-size: 3.7rem;
+    text-shadow: 3px 5px #96777dce;
+    color: hotpink;
+}
+nav a {
+    font-family: 'Londrina Solid';
+    text-decoration: none;
+    color: hotpink;
+    font-size: 3.5rem;
+}
+body>p,footer{
+    background-color: #f77aac;
+    color: #f9eedd;
+    text-align: center;
+}
+body>p{
+    padding: 1%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Pinyon Script';
+    font-weight: bold;
+
+    transition: height 2s;
+}
+.scroll{
+    height: 5px;
+}
+ul li{
+    text-decoration: none;
+    list-style:none; 
+}
+footer{
+    position: sticky;
+    bottom:0;
+}
+footer ul{
+    font-family: 'Londrina Solid';
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1%;
+    justify-content: center;
+    margin-top: 0;
+    
+}
+footer ul li{
+    font-size: 1.5rem;
+    border-left: #f9eedd 3px solid;
+}
+footer ul li:first-of-type{
+    border-left: none;
+}
